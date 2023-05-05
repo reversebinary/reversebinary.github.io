@@ -1,0 +1,4 @@
+baseURL = 'https://reversebinary.github.io/'
+languageCode = 'en-us'
+title = 'Reverse Binary'
+theme = 'anubis'
