@@ -2,3 +2,56 @@ baseURL = 'https://reversebinary.github.io/'
 languageCode = 'en-us'
 title = 'Reverse Binary'
 theme = 'anubis'
+paginate = 20
+enableRobotsTXT = true
+
+[menu]
+    [[menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        title = "Archive"
+        url = "/posts/"
+        weight = 0
+    [[menu.main]]
+        identifier = "archive"
+        name = "Archive"
+        title = "Archive"
+        url = "/archive/"
+        weight = 10
+    [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        title = "Tags"
+        url = "/tags/"
+        weight = 20
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[params]
+author = "Reverse Binary"
+email = "administrator@reversebinary.com"
+description = ""
+dateFormat = "2006-01-02"
+paginationSinglePost = true
+style = "dark"
+readMore = true
+readNextPosts = 5
+disableSummary = false
+copyCodeButton = true
+rssAsSocialIcon = true
+mathjax = false
+utterancesRepo = ""
+utterancesTheme = ""
+utterancesIssue = ""
+utterancesLabel = ""
+graphcommentId = ""
+
+  [[params.social]]
+  id = "github"
+  url = "https://github.com/reversebinary"
+  icon = "github"
+
+[markup.goldmark.renderer]
+unsafe = true
